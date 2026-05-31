@@ -10,6 +10,7 @@ import { HelperModule } from './helper/helper.module';
 import { ReviewModule } from './review/review.module';
 import { PaymentModule } from './payment/payment.module';
 import { NotificationModule } from './notification/notification.module';
+import { AIModule } from './ai/ai.module';
 
 @Module({
   imports: [
@@ -43,6 +44,8 @@ import { NotificationModule } from './notification/notification.module';
     PaymentModule,
 
     NotificationModule,
+
+    AIModule,
   ],
 })
 export class AppModule {}
